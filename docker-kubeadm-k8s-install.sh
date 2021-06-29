@@ -1,15 +1,13 @@
 #!/bin/bash
-
+ssh gmcollection@10.161.4.159
 UBUNTU_VERSION=16.04
 K8S_VERSION=1.11.3-00
 node_type=master
-
 echo "Ubuntu version: ${UBUNTU_VERSION}"
 echo "K8s version: ${K8S_VERSION}"
 echo "K8s node type: ${node_type}"
 echo
 #Update all installed packages.
-ssh gmcollection@10.161.4.159
 sudo apt-get update
 sudo apt-get upgrade
 
