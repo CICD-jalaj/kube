@@ -1,5 +1,5 @@
 #!/bin/bash
-ssh gmcollection@10.161.4.159
+ssh microservice@10.161.4.157
 git clone https://github.com/CICD-jalaj/kube.git
 
 UBUNTU_VERSION=16.04
