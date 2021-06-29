@@ -1,4 +1,5 @@
 #!/bin/bash
+ssh microservice@10.161.4.157
 
 UBUNTU_VERSION=16.04
 K8S_VERSION=1.11.3-00
