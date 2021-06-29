@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 UBUNTU_VERSION=16.04
 K8S_VERSION=1.11.3-00
 node_type=master
