@@ -1,6 +1,6 @@
 #!/bin/bash
-ssh gmcollection@10.161.4.159
 
+ssh gmcollection@10.161.4.159
 
 UBUNTU_VERSION=16.04
 K8S_VERSION=1.11.3-00
